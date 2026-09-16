@@ -1,0 +1,950 @@
+{
+  "format": 1,
+  "schema": "org.gnome.shell.extensions.simple-taskbar",
+  "settings": {
+    "icon-size": {
+      "type": "i",
+      "value": "46"
+    },
+    "system-menu-visible": {
+      "type": "b",
+      "value": "true"
+    },
+    "active-panel-axis": {
+      "type": "s",
+      "value": "'horizontal'"
+    },
+    "start-menu-app-categories": {
+      "type": "b",
+      "value": "true"
+    },
+    "unfocused-indicator-color": {
+      "type": "s",
+      "value": "'#8d8d8d'"
+    },
+    "start-menu-open-all-apps": {
+      "type": "b",
+      "value": "false"
+    },
+    "classic-highlight-appicon-hover-background-color": {
+      "type": "s",
+      "value": "'rgba(238, 238, 236, 0.1)'"
+    },
+    "locations-show-documents": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-panel-mode": {
+      "type": "b",
+      "value": "false"
+    },
+    "enter-peek-mode-timeout": {
+      "type": "i",
+      "value": "50"
+    },
+    "grid-alt-tab-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "panel-theme": {
+      "type": "s",
+      "value": "'dark'"
+    },
+    "show-notification-badges": {
+      "type": "b",
+      "value": "true"
+    },
+    "start-menu-monitor-centered": {
+      "type": "b",
+      "value": "true"
+    },
+    "multi-monitor-panels": {
+      "type": "b",
+      "value": "true"
+    },
+    "animate-appicon-hover-animation-zoom": {
+      "type": "a{sd}",
+      "value": "{'simple': 1.0, 'ripple': 1.25, 'magnify': 2.0}"
+    },
+    "dock-edge-reveal-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "dock-workspace-scroll-delay": {
+      "type": "i",
+      "value": "5"
+    },
+    "app-alignment": {
+      "type": "s",
+      "value": "'center'"
+    },
+    "super-e-file-manager-hotkey": {
+      "type": "as",
+      "value": "['<Super>e']"
+    },
+    "panel-dodge-windows-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "running-indicator-style": {
+      "type": "s",
+      "value": "'rounded'"
+    },
+    "hide-pinned-taskbar-apps": {
+      "type": "b",
+      "value": "false"
+    },
+    "windows-xp-mode-settings-saved": {
+      "type": "b",
+      "value": "false"
+    },
+    "show-location-separator": {
+      "type": "b",
+      "value": "true"
+    },
+    "transparency-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "transparency-dynamic-behavior": {
+      "type": "s",
+      "value": "'maximized-windows'"
+    },
+    "application-click-animation": {
+      "type": "s",
+      "value": "'gnome-zoom-out'"
+    },
+    "windows-xp-previous-mode": {
+      "type": "s",
+      "value": "'taskbar'"
+    },
+    "start-menu-context-event-viewer": {
+      "type": "b",
+      "value": "true"
+    },
+    "dock-show-locations": {
+      "type": "b",
+      "value": "true"
+    },
+    "default-panel-mode-settings": {
+      "type": "a{sv}",
+      "value": "{'icon-size': <44>, 'start-menu-app-categories': <true>, 'start-menu-open-all-apps': <false>, 'locations-show-documents': <false>, 'grid-alt-tab-enabled': <false>, 'start-menu-monitor-centered': <true>, 'panel-theme': <'dark'>, 'use-pinned-apps-as-launchers': <false>, 'multi-monitor-panels': <true>, 'show-location-separator': <true>, 'app-alignment': <'center'>, 'panel-dodge-windows-enabled': <false>, 'running-indicator-style': <'rounded'>, 'hide-pinned-taskbar-apps': <false>, 'window-previews-enabled': <false>, 'transparency-enabled': <false>, 'start-menu-context-event-viewer': <true>, 'dock-show-locations': <true>, 'taskbar-show-mounts': <false>, 'volume-mixer-enabled': <false>, 'activities-button-position': <'left'>, 'start-menu-hide-pinned-app-titles': <false>, 'transparency-level': <20>, 'start-menu-pinned-apps': <@as []>, 'panel-height': <32>, 'custom-panel-color-enabled': <false>, 'custom-panel-gradient-direction': <'vertical'>, 'task-manager-app': <'net.nokyan.Resources.desktop'>, 'start-button-custom-icon': <'distro:distro-fedora.svg'>, 'panel-menu-click-only': <true>, 'grid-alt-tab-max-card-size': <250>, 'start-menu-show-locations': <false>, 'start-menu-context-show-desktop': <true>, 'start-menu-show-videos': <false>, 'start-menu-recommended-apps': <true>, 'start-menu-super-tab': <false>, 'panel-dodge-windows-mode': <'focused-window'>, 'start-menu-context-disk-management': <true>, 'grid-alt-tab-isolate-workspaces': <false>, 'grid-alt-tab-isolate-monitors': <false>, 'isolate-monitors': <false>, 'tray-overflow-position': <'right'>, 'start-menu-show-profile-picture': <false>, 'hot-edge-animation-enabled': <false>, 'workspace-scroll-enabled': <true>, 'grid-alt-tab-backward-hotkey': <['<Shift><Alt>Tab']>, 'windows-xp-show-desktop-position': <0>, 'panel-theme-follow-system': <true>, 'start-menu-show-pictures': <false>, 'panel-position': <'top'>, 'start-menu-context-run': <true>, 'multi-window-click-spread': <true>, 'folder-menu-uri': <''>, 'taskbar-show-trash': <true>, 'show-pinned-app-separator': <true>, 'panel-item-order': <['left-box', 'center-box', 'right-box', 'start-button', 'activities', 'applications', 'folder-menu', 'tray-overflow', 'system-menu', 'clock', 'show-desktop']>, 'locations-show-desktop': <false>, 'dock-show-mounts': <false>, 'start-menu-context-menu-enabled': <true>, 'start-menu-theme': <'shell'>, 'dock-show-trash': <false>, 'start-menu-context-terminal': <true>, 'middle-click-close-apps': <false>, 'taskbar-locked': <false>, 'start-menu-show-music': <false>, 'gnome-start-button-visible': <true>, 'locations-show-mounted-only': <true>, 'isolate-workspaces': <false>, 'start-button-follow-app-alignment': <true>, 'icon-spacing': <5>, 'start-menu-context-network': <true>, 'focused-indicator-color': <'#60aef7'>, 'application-overflow-style': <'taskbar'>, 'locations-show-music': <false>, 'start-menu-context-file-manager': <true>, 'locations-show-home': <false>, 'start-menu-show-downloads': <true>, 'custom-indicator-colors-enabled': <false>, 'match-icon-color': <false>, 'custom-panel-gradient-color': <'#333333'>, 'notification-banner-bottom-end': <true>, 'windows-start-menu-enabled': <false>, 'combine-app-buttons-mode': <'always'>, 'start-menu-show-home': <false>, 'show-desktop-button-visible': <false>, 'start-menu-context-installed-apps': <true>, 'start-menu-follow-panel-transparency': <false>, 'start-menu-super-key': <true>, 'system-menu-position': <'right'>, 'start-menu-displaced-overlay-key': <@as []>, 'panel-button-padding': <3>, 'locations-show-videos': <false>, 'start-button-position': <'center'>, 'clock-position': <'center'>, 'start-button-padding': <5>, 'custom-panel-color': <'#18181b'>, 'start-menu-power-options-enabled': <true>, 'custom-panel-gradient-enabled': <false>, 'folder-menu-position': <'right'>, 'target-prefs-page': <''>, 'tray-overflow-enabled': <true>, 'start-menu-show-documents': <false>, 'start-menu-context-task-manager': <true>, 'hide-app-labels': <false>, 'locations-show-downloads': <true>, 'start-menu-context-system': <true>, 'activities-button-visible': <true>, 'locations-show-pictures': <false>, 'start-menu-custom-hotkey': <@as []>, 'grid-alt-tab-hotkey': <['<Alt>Tab']>, 'folder-menu-enabled': <false>, 'show-desktop-button-position': <'right'>, 'dock-corner-radius': <22>, 'hot-edge-pressure-threshold': <150>, 'panel-dodge-pointer-reveal-enabled': <true>, 'panel-autohide-enabled': <false>, 'workspace-scroll-delay': <5>, 'start-menu-follow-panel-theme': <true>, 'start-menu-show-desktop': <false>, 'hot-edge-overview-enabled': <false>, 'hide-unpinned-taskbar-apps': <false>, 'panel-border-enabled': <false>, 'grid-alt-tab-show-on-primary-monitor': <false>, 'panel-border-light-enabled': <false>, 'application-overflow-enabled': <true>, 'start-menu-super-tab-hotkey': <['<Super>Tab']>, 'taskbar-show-locations': <false>, 'locations-show-network': <false>, 'nautilus-places-enabled': <true>, 'unfocused-indicator-color': <'#8d8d8d'>, 'super-e-file-manager-enabled': <true>, 'super-e-file-manager-hotkey': <['<Super>e']>}"
+    },
+    "taskbar-show-mounts": {
+      "type": "b",
+      "value": "false"
+    },
+    "volume-mixer-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "windows-xp-theme-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-transparency-dynamic-distance": {
+      "type": "i",
+      "value": "20"
+    },
+    "classic-highlight-appicon-hover": {
+      "type": "b",
+      "value": "true"
+    },
+    "activities-button-position": {
+      "type": "s",
+      "value": "'left'"
+    },
+    "transparency-level": {
+      "type": "i",
+      "value": "20"
+    },
+    "start-menu-hide-pinned-app-titles": {
+      "type": "b",
+      "value": "false"
+    },
+    "start-menu-pinned-apps": {
+      "type": "as",
+      "value": "@as []"
+    },
+    "dock-panel-border-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "taskbar-horizontal-settings-saved": {
+      "type": "b",
+      "value": "true"
+    },
+    "application-hover-action": {
+      "type": "s",
+      "value": "'show-tooltip'"
+    },
+    "custom-panel-gradient-direction": {
+      "type": "s",
+      "value": "'vertical'"
+    },
+    "custom-panel-color-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "panel-height": {
+      "type": "i",
+      "value": "32"
+    },
+    "task-manager-app": {
+      "type": "s",
+      "value": "'net.nokyan.Resources.desktop'"
+    },
+    "transparency-dynamic-distance": {
+      "type": "i",
+      "value": "20"
+    },
+    "dock-transparency-dynamic-animation-time": {
+      "type": "i",
+      "value": "300"
+    },
+    "start-button-custom-icon": {
+      "type": "s",
+      "value": "'distro:distro-fedora.svg'"
+    },
+    "default-panel-horizontal-settings": {
+      "type": "a{sv}",
+      "value": "{'icon-size': <44>, 'start-menu-app-categories': <true>, 'start-menu-open-all-apps': <false>, 'locations-show-documents': <false>, 'grid-alt-tab-enabled': <false>, 'start-menu-monitor-centered': <true>, 'panel-theme': <'dark'>, 'use-pinned-apps-as-launchers': <false>, 'multi-monitor-panels': <true>, 'show-location-separator': <true>, 'app-alignment': <'center'>, 'panel-dodge-windows-enabled': <false>, 'running-indicator-style': <'rounded'>, 'hide-pinned-taskbar-apps': <false>, 'window-previews-enabled': <false>, 'transparency-enabled': <false>, 'start-menu-context-event-viewer': <true>, 'dock-show-locations': <true>, 'taskbar-show-mounts': <false>, 'volume-mixer-enabled': <false>, 'activities-button-position': <'left'>, 'start-menu-hide-pinned-app-titles': <false>, 'transparency-level': <20>, 'start-menu-pinned-apps': <@as []>, 'panel-height': <32>, 'custom-panel-color-enabled': <false>, 'custom-panel-gradient-direction': <'vertical'>, 'task-manager-app': <'net.nokyan.Resources.desktop'>, 'start-button-custom-icon': <'distro:distro-fedora.svg'>, 'panel-menu-click-only': <true>, 'grid-alt-tab-max-card-size': <250>, 'start-menu-show-locations': <false>, 'start-menu-context-show-desktop': <true>, 'start-menu-show-videos': <false>, 'start-menu-recommended-apps': <true>, 'start-menu-super-tab': <false>, 'panel-dodge-windows-mode': <'focused-window'>, 'start-menu-context-disk-management': <true>, 'grid-alt-tab-isolate-workspaces': <false>, 'grid-alt-tab-isolate-monitors': <false>, 'isolate-monitors': <false>, 'tray-overflow-position': <'right'>, 'start-menu-show-profile-picture': <false>, 'hot-edge-animation-enabled': <false>, 'workspace-scroll-enabled': <true>, 'grid-alt-tab-backward-hotkey': <['<Shift><Alt>Tab']>, 'windows-xp-show-desktop-position': <0>, 'panel-theme-follow-system': <true>, 'start-menu-show-pictures': <false>, 'start-menu-context-run': <true>, 'multi-window-click-spread': <true>, 'folder-menu-uri': <''>, 'taskbar-show-trash': <true>, 'show-pinned-app-separator': <true>, 'panel-item-order': <['left-box', 'center-box', 'right-box', 'start-button', 'activities', 'applications', 'folder-menu', 'tray-overflow', 'system-menu', 'clock', 'show-desktop']>, 'locations-show-desktop': <false>, 'dock-show-mounts': <false>, 'start-menu-context-menu-enabled': <true>, 'start-menu-theme': <'shell'>, 'dock-show-trash': <false>, 'start-menu-context-terminal': <true>, 'middle-click-close-apps': <false>, 'taskbar-locked': <false>, 'start-menu-show-music': <false>, 'gnome-start-button-visible': <true>, 'locations-show-mounted-only': <true>, 'isolate-workspaces': <false>, 'start-button-follow-app-alignment': <true>, 'icon-spacing': <5>, 'start-menu-context-network': <true>, 'focused-indicator-color': <'#60aef7'>, 'application-overflow-style': <'taskbar'>, 'locations-show-music': <false>, 'start-menu-context-file-manager': <true>, 'locations-show-home': <false>, 'start-menu-show-downloads': <true>, 'custom-indicator-colors-enabled': <false>, 'match-icon-color': <false>, 'custom-panel-gradient-color': <'#333333'>, 'notification-banner-bottom-end': <true>, 'windows-start-menu-enabled': <false>, 'combine-app-buttons-mode': <'always'>, 'start-menu-show-home': <false>, 'show-desktop-button-visible': <false>, 'start-menu-context-installed-apps': <true>, 'start-menu-follow-panel-transparency': <false>, 'start-menu-super-key': <true>, 'system-menu-position': <'right'>, 'start-menu-displaced-overlay-key': <@as []>, 'panel-button-padding': <3>, 'locations-show-videos': <false>, 'start-button-position': <'center'>, 'clock-position': <'center'>, 'start-button-padding': <5>, 'custom-panel-color': <'#18181b'>, 'start-menu-power-options-enabled': <true>, 'custom-panel-gradient-enabled': <false>, 'folder-menu-position': <'right'>, 'target-prefs-page': <''>, 'tray-overflow-enabled': <true>, 'start-menu-show-documents': <false>, 'start-menu-context-task-manager': <true>, 'hide-app-labels': <false>, 'locations-show-downloads': <true>, 'start-menu-context-system': <true>, 'activities-button-visible': <true>, 'locations-show-pictures': <false>, 'start-menu-custom-hotkey': <@as []>, 'grid-alt-tab-hotkey': <['<Alt>Tab']>, 'folder-menu-enabled': <false>, 'show-desktop-button-position': <'right'>, 'dock-corner-radius': <22>, 'hot-edge-pressure-threshold': <150>, 'panel-dodge-pointer-reveal-enabled': <true>, 'panel-autohide-enabled': <false>, 'workspace-scroll-delay': <5>, 'start-menu-follow-panel-theme': <true>, 'start-menu-show-desktop': <false>, 'hot-edge-overview-enabled': <false>, 'hide-unpinned-taskbar-apps': <false>, 'panel-border-enabled': <false>, 'grid-alt-tab-show-on-primary-monitor': <false>, 'panel-border-light-enabled': <false>, 'application-overflow-enabled': <true>, 'start-menu-super-tab-hotkey': <['<Super>Tab']>, 'taskbar-show-locations': <false>, 'locations-show-network': <false>, 'nautilus-places-enabled': <true>, 'unfocused-indicator-color': <'#8d8d8d'>, 'super-e-file-manager-enabled': <true>, 'super-e-file-manager-hotkey': <['<Super>e']>}"
+    },
+    "grid-alt-tab-max-card-size": {
+      "type": "i",
+      "value": "250"
+    },
+    "panel-menu-click-only": {
+      "type": "b",
+      "value": "true"
+    },
+    "animate-appicon-hover-animation-convexity": {
+      "type": "a{sd}",
+      "value": "{'ripple': 2.0, 'magnify': 1.0}"
+    },
+    "dock-custom-panel-color-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-workspace-scroll-action": {
+      "type": "s",
+      "value": "'switch-workspace'"
+    },
+    "use-pinned-apps-as-launchers": {
+      "type": "b",
+      "value": "false"
+    },
+    "start-menu-context-show-desktop": {
+      "type": "b",
+      "value": "true"
+    },
+    "peek-mode-opacity": {
+      "type": "i",
+      "value": "40"
+    },
+    "middle-click-action": {
+      "type": "s",
+      "value": "'launch-new-instance'"
+    },
+    "dock-panel-theme-follow-system": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-dodge-windows-mode": {
+      "type": "s",
+      "value": "'all-windows'"
+    },
+    "start-menu-recommended-apps": {
+      "type": "b",
+      "value": "true"
+    },
+    "start-menu-super-tab": {
+      "type": "b",
+      "value": "false"
+    },
+    "panel-dodge-windows-mode": {
+      "type": "s",
+      "value": "'focused-window'"
+    },
+    "taskbar-vertical-settings": {
+      "type": "a{sv}",
+      "value": "@a{sv} {}"
+    },
+    "scroll-icon-follow-panel-delay": {
+      "type": "b",
+      "value": "true"
+    },
+    "leave-timeout": {
+      "type": "i",
+      "value": "300"
+    },
+    "grid-alt-tab-isolate-workspaces": {
+      "type": "b",
+      "value": "false"
+    },
+    "grid-alt-tab-isolate-monitors": {
+      "type": "b",
+      "value": "false"
+    },
+    "clock-visible": {
+      "type": "b",
+      "value": "true"
+    },
+    "isolate-monitors": {
+      "type": "b",
+      "value": "false"
+    },
+    "tray-overflow-position": {
+      "type": "s",
+      "value": "'right'"
+    },
+    "start-menu-show-profile-picture": {
+      "type": "b",
+      "value": "false"
+    },
+    "hot-edge-animation-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "running-indicator-full-length": {
+      "type": "b",
+      "value": "true"
+    },
+    "grid-alt-tab-backward-hotkey": {
+      "type": "as",
+      "value": "['<Shift><Alt>Tab']"
+    },
+    "windows-xp-show-desktop-position": {
+      "type": "i",
+      "value": "0"
+    },
+    "start-menu-context-disk-management": {
+      "type": "b",
+      "value": "true"
+    },
+    "taskbar-mode-settings-saved": {
+      "type": "b",
+      "value": "true"
+    },
+    "panel-theme-follow-system": {
+      "type": "b",
+      "value": "true"
+    },
+    "start-menu-show-locations": {
+      "type": "b",
+      "value": "false"
+    },
+    "start-menu-show-videos": {
+      "type": "b",
+      "value": "false"
+    },
+    "default-panel-horizontal-settings-saved": {
+      "type": "b",
+      "value": "true"
+    },
+    "running-indicator-position": {
+      "type": "s",
+      "value": "'bottom'"
+    },
+    "start-menu-show-pictures": {
+      "type": "b",
+      "value": "false"
+    },
+    "panel-position": {
+      "type": "s",
+      "value": "'top'"
+    },
+    "start-menu-context-run": {
+      "type": "b",
+      "value": "true"
+    },
+    "group-apps-label-font-weight": {
+      "type": "s",
+      "value": "'inherit'"
+    },
+    "default-panel-mode-settings-saved": {
+      "type": "b",
+      "value": "true"
+    },
+    "window-minimize-effect": {
+      "type": "s",
+      "value": "'gnome-default'"
+    },
+    "dock-custom-panel-gradient-direction": {
+      "type": "s",
+      "value": "'vertical'"
+    },
+    "taskbar-mode-settings": {
+      "type": "a{sv}",
+      "value": "{'icon-size': <32>, 'panel-height': <49>, 'task-manager-app': <'net.nokyan.Resources.desktop'>, 'panel-position': <'bottom'>, 'icon-spacing': <3>, 'start-menu-displaced-overlay-key': <['Super']>, 'panel-button-padding': <-1>, 'start-button-padding': <3>}"
+    },
+    "windows-xp-mode-settings": {
+      "type": "a{sv}",
+      "value": "@a{sv} {}"
+    },
+    "folder-menu-uri": {
+      "type": "s",
+      "value": "''"
+    },
+    "dock-transparency-on-unmaximized": {
+      "type": "b",
+      "value": "false"
+    },
+    "taskbar-show-trash": {
+      "type": "b",
+      "value": "true"
+    },
+    "panel-item-order": {
+      "type": "as",
+      "value": "['left-box', 'center-box', 'right-box', 'start-button', 'activities', 'applications', 'folder-menu', 'tray-overflow', 'system-menu', 'clock', 'show-desktop']"
+    },
+    "dock-show-mounts": {
+      "type": "b",
+      "value": "false"
+    },
+    "classic-focus-highlight-dominant": {
+      "type": "b",
+      "value": "false"
+    },
+    "default-panel-vertical-settings": {
+      "type": "a{sv}",
+      "value": "@a{sv} {}"
+    },
+    "transparency-on-unmaximized": {
+      "type": "b",
+      "value": "false"
+    },
+    "locations-show-desktop": {
+      "type": "b",
+      "value": "false"
+    },
+    "show-pinned-app-separator": {
+      "type": "b",
+      "value": "true"
+    },
+    "show-desktop-button-width": {
+      "type": "i",
+      "value": "12"
+    },
+    "start-menu-theme": {
+      "type": "s",
+      "value": "'shell'"
+    },
+    "start-menu-context-menu-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "dock-dodge-pointer-reveal-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "taskbar-vertical-settings-saved": {
+      "type": "b",
+      "value": "false"
+    },
+    "default-panel-vertical-settings-saved": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-show-trash": {
+      "type": "b",
+      "value": "false"
+    },
+    "start-menu-context-terminal": {
+      "type": "b",
+      "value": "true"
+    },
+    "group-apps-use-fixed-width": {
+      "type": "b",
+      "value": "true"
+    },
+    "scroll-icon-action": {
+      "type": "s",
+      "value": "'switch-workspace'"
+    },
+    "workspace-scroll-action": {
+      "type": "s",
+      "value": "'switch-workspace'"
+    },
+    "panel-mode-profiles-initialized": {
+      "type": "b",
+      "value": "true"
+    },
+    "start-menu-show-music": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-transparency-dynamic-behavior": {
+      "type": "s",
+      "value": "'maximized-windows'"
+    },
+    "gnome-start-button-visible": {
+      "type": "b",
+      "value": "true"
+    },
+    "dock-min-icon-size": {
+      "type": "i",
+      "value": "32"
+    },
+    "classic-focus-highlight": {
+      "type": "b",
+      "value": "true"
+    },
+    "isolate-workspaces": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-mode-initialized": {
+      "type": "b",
+      "value": "true"
+    },
+    "icon-spacing": {
+      "type": "i",
+      "value": "5"
+    },
+    "dock-position": {
+      "type": "s",
+      "value": "'bottom'"
+    },
+    "default-gnome-panel": {
+      "type": "b",
+      "value": "true"
+    },
+    "locations-show-mounted-only": {
+      "type": "b",
+      "value": "true"
+    },
+    "start-menu-follow-panel-transparency": {
+      "type": "b",
+      "value": "false"
+    },
+    "focused-indicator-color": {
+      "type": "s",
+      "value": "'#60aef7'"
+    },
+    "application-overflow-style": {
+      "type": "s",
+      "value": "'taskbar'"
+    },
+    "locations-show-home": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-max-length": {
+      "type": "i",
+      "value": "90"
+    },
+    "locations-show-music": {
+      "type": "b",
+      "value": "false"
+    },
+    "classic-highlight-appicon-pressed-background-color": {
+      "type": "s",
+      "value": "'rgba(238, 238, 236, 0.18)'"
+    },
+    "dock-autohide-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "custom-indicator-colors-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "match-icon-color": {
+      "type": "b",
+      "value": "false"
+    },
+    "custom-panel-gradient-color": {
+      "type": "s",
+      "value": "'#333333'"
+    },
+    "notification-banner-bottom-end": {
+      "type": "b",
+      "value": "true"
+    },
+    "start-menu-context-network": {
+      "type": "b",
+      "value": "true"
+    },
+    "classic-focus-highlight-opacity": {
+      "type": "i",
+      "value": "25"
+    },
+    "combine-app-buttons-mode": {
+      "type": "s",
+      "value": "'always'"
+    },
+    "start-button-follow-app-alignment": {
+      "type": "b",
+      "value": "true"
+    },
+    "dock-custom-panel-gradient-color": {
+      "type": "s",
+      "value": "'#333333'"
+    },
+    "scroll-icon-delay": {
+      "type": "i",
+      "value": "5"
+    },
+    "shift-click-action": {
+      "type": "s",
+      "value": "'minimize-window'"
+    },
+    "show-desktop-button-visible": {
+      "type": "b",
+      "value": "false"
+    },
+    "start-menu-context-installed-apps": {
+      "type": "b",
+      "value": "true"
+    },
+    "start-menu-super-key": {
+      "type": "b",
+      "value": "true"
+    },
+    "animate-appicon-hover-animation-rotation": {
+      "type": "a{si}",
+      "value": "{'simple': 0, 'ripple': 10, 'magnify': 0}"
+    },
+    "system-menu-position": {
+      "type": "s",
+      "value": "'right'"
+    },
+    "start-menu-context-file-manager": {
+      "type": "b",
+      "value": "true"
+    },
+    "classic-focus-highlight-color": {
+      "type": "s",
+      "value": "'#EEEEEE'"
+    },
+    "locations-show-videos": {
+      "type": "b",
+      "value": "false"
+    },
+    "animate-appicon-hover-animation-extent": {
+      "type": "a{si}",
+      "value": "{'ripple': 4, 'magnify': 7}"
+    },
+    "animate-appicon-hover-animation-duration": {
+      "type": "a{su}",
+      "value": "{'simple': uint32 160, 'ripple': 130, 'magnify': 80}"
+    },
+    "peek-mode": {
+      "type": "b",
+      "value": "true"
+    },
+    "classic-highlight-appicon-hover-border-radius": {
+      "type": "i",
+      "value": "8"
+    },
+    "panel-axis-profiles-initialized": {
+      "type": "b",
+      "value": "true"
+    },
+    "start-button-position": {
+      "type": "s",
+      "value": "'center'"
+    },
+    "clock-position": {
+      "type": "s",
+      "value": "'center'"
+    },
+    "dock-panel-theme": {
+      "type": "s",
+      "value": "'dark'"
+    },
+    "panel-button-padding": {
+      "type": "i",
+      "value": "3"
+    },
+    "start-button-padding": {
+      "type": "i",
+      "value": "5"
+    },
+    "dock-custom-panel-gradient-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-transparency-level": {
+      "type": "i",
+      "value": "25"
+    },
+    "start-menu-displaced-overlay-key": {
+      "type": "as",
+      "value": "@as []"
+    },
+    "custom-panel-color": {
+      "type": "s",
+      "value": "'#18181b'"
+    },
+    "show-desktop-button-custom-line-color-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-dodge-windows-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "start-menu-power-options-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "custom-panel-gradient-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "folder-menu-position": {
+      "type": "s",
+      "value": "'right'"
+    },
+    "windows-start-menu-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "start-menu-show-downloads": {
+      "type": "b",
+      "value": "true"
+    },
+    "show-window-previews-timeout": {
+      "type": "i",
+      "value": "320"
+    },
+    "active-panel-mode": {
+      "type": "s",
+      "value": "'default-panel'"
+    },
+    "show-desktop-button-custom-line-color": {
+      "type": "s",
+      "value": "'rgba(255,255,255,0.28)'"
+    },
+    "animate-appicon-hover-animation-travel": {
+      "type": "a{sd}",
+      "value": "{'simple': 0.10000000000000001, 'ripple': 0.40000000000000002, 'magnify': 0.0}"
+    },
+    "start-menu-show-documents": {
+      "type": "b",
+      "value": "false"
+    },
+    "tray-overflow-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "dock-custom-panel-color": {
+      "type": "s",
+      "value": "'#18181b'"
+    },
+    "start-menu-context-task-manager": {
+      "type": "b",
+      "value": "true"
+    },
+    "hide-app-labels": {
+      "type": "b",
+      "value": "false"
+    },
+    "taskbar-locked": {
+      "type": "b",
+      "value": "false"
+    },
+    "animate-appicon-hover-animation-expansion": {
+      "type": "a{su}",
+      "value": "{'magnify': uint32 100}"
+    },
+    "locations-show-downloads": {
+      "type": "b",
+      "value": "true"
+    },
+    "activities-button-visible": {
+      "type": "b",
+      "value": "true"
+    },
+    "dock-multi-monitor-panels": {
+      "type": "b",
+      "value": "true"
+    },
+    "group-apps-label-font-size": {
+      "type": "i",
+      "value": "14"
+    },
+    "animate-appicon-hover-animation-type": {
+      "type": "s",
+      "value": "'simple'"
+    },
+    "locations-show-pictures": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-corner-radius": {
+      "type": "i",
+      "value": "22"
+    },
+    "hot-edge-pressure-threshold": {
+      "type": "i",
+      "value": "150"
+    },
+    "folder-menu-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-transparency-dynamic-level": {
+      "type": "i",
+      "value": "100"
+    },
+    "panel-dodge-pointer-reveal-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "show-desktop-button-position": {
+      "type": "s",
+      "value": "'right'"
+    },
+    "dock-panel-blur-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "panel-autohide-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-transparency-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "shift-middle-click-action": {
+      "type": "s",
+      "value": "'launch-new-instance'"
+    },
+    "grid-alt-tab-hotkey": {
+      "type": "as",
+      "value": "['<Alt>Tab']"
+    },
+    "dock-mode": {
+      "type": "b",
+      "value": "true"
+    },
+    "start-menu-custom-hotkey": {
+      "type": "as",
+      "value": "@as []"
+    },
+    "start-menu-show-desktop": {
+      "type": "b",
+      "value": "false"
+    },
+    "start-menu-context-system": {
+      "type": "b",
+      "value": "true"
+    },
+    "hot-edge-overview-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "hide-unpinned-taskbar-apps": {
+      "type": "b",
+      "value": "false"
+    },
+    "preview-middle-click-close": {
+      "type": "b",
+      "value": "true"
+    },
+    "panel-border-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "grid-alt-tab-show-on-primary-monitor": {
+      "type": "b",
+      "value": "false"
+    },
+    "transparency-dynamic-level": {
+      "type": "i",
+      "value": "100"
+    },
+    "panel-border-light-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "start-menu-running-indicators": {
+      "type": "b",
+      "value": "true"
+    },
+    "application-overflow-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "taskbar-highlight-style": {
+      "type": "s",
+      "value": "'glass'"
+    },
+    "taskbar-horizontal-settings": {
+      "type": "a{sv}",
+      "value": "{'icon-size': <32>, 'panel-height': <49>, 'task-manager-app': <'net.nokyan.Resources.desktop'>, 'icon-spacing': <3>, 'start-menu-displaced-overlay-key': <['Super']>, 'panel-button-padding': <-1>, 'start-button-padding': <3>}"
+    },
+    "start-menu-show-home": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-item-order": {
+      "type": "as",
+      "value": "['start-button', 'applications']"
+    },
+    "start-menu-follow-panel-theme": {
+      "type": "b",
+      "value": "true"
+    },
+    "super-number-keybindings-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "application-click-action": {
+      "type": "s",
+      "value": "'toggle-spread'"
+    },
+    "taskbar-show-locations": {
+      "type": "b",
+      "value": "false"
+    },
+    "dock-panel-border-light-enabled": {
+      "type": "b",
+      "value": "false"
+    },
+    "start-menu-super-tab-hotkey": {
+      "type": "as",
+      "value": "['<Super>Tab']"
+    },
+    "show-start-button-separator": {
+      "type": "b",
+      "value": "false"
+    },
+    "transparency-dynamic-animation-time": {
+      "type": "i",
+      "value": "300"
+    },
+    "locations-show-network": {
+      "type": "b",
+      "value": "false"
+    },
+    "nautilus-places-enabled": {
+      "type": "b",
+      "value": "true"
+    },
+    "hide-pinned-secondary-monitors": {
+      "type": "b",
+      "value": "false"
+    },
+    "running-indicator-size": {
+      "type": "i",
+      "value": "4"
+    },
+    "group-apps-label-max-width": {
+      "type": "i",
+      "value": "160"
+    },
+    "workspace-scroll-delay": {
+      "type": "i",
+      "value": "5"
+    },
+    "super-e-file-manager-enabled": {
+      "type": "b",
+      "value": "true"
+    }
+  }
+}
